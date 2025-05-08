@@ -22,7 +22,7 @@ namespace test
             var service = new ResponseService(httpClient, options, cache);
 
             // Act & Assert
-            await Assert.ThrowsAsync<Exception>(async () => await service.GetUserById(999));
+            await Xunit.Assert.ThrowsAsync<Exception>(async () => await service.GetUserById(999));
         }
     }
 }
