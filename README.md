@@ -59,10 +59,5 @@ Unit test are included in the `test` project. To run the test: dotnet test
 - Network errors are handled with retry policies.
 - Invalid user or page inputs are validated and reported to the user.
 
----
-
-Enjoy using the RaftLabs User Fetcher! 🚀
-
-
 
    
